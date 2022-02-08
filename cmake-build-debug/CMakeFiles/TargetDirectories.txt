@@ -1,0 +1,4 @@
+C:/Studying/Programming/infa_2021_c++/cmake-build-debug/CMakeFiles/infa_2021_c__.dir
+C:/Studying/Programming/infa_2021_c++/cmake-build-debug/CMakeFiles/N_1.dir
+C:/Studying/Programming/infa_2021_c++/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Studying/Programming/infa_2021_c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
