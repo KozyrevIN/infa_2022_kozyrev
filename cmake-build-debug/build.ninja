@@ -40,17 +40,38 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target N_5
+
 
 #############################################
-# Utility command for rebuild_cache
+# Order-only phony target for N_5
 
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Studying\Programming\infa_2022_kozyrev\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Studying\Programming\infa_2022_kozyrev -BC:\Studying\Programming\infa_2022_kozyrev\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
+build cmake_object_order_depends_target_N_5: phony || CMakeFiles/N_5.dir
 
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+build CMakeFiles/N_5.dir/Lab_2/N_5.cpp.obj: CXX_COMPILER__N_5_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_5.cpp || cmake_object_order_depends_target_N_5
+  DEP_FILE = CMakeFiles\N_5.dir\Lab_2\N_5.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\N_5.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_5.dir\Lab_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_5
+
+
+#############################################
+# Link the executable N_5.exe
+
+build N_5.exe: CXX_EXECUTABLE_LINKER__N_5_Debug CMakeFiles/N_5.dir/Lab_2/N_5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_5.exe
+  TARGET_IMPLIB = libN_5.dll.a
+  TARGET_PDB = N_5.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target infa_2022_kozyrev
@@ -145,8 +166,80 @@ build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N15.cpp.obj: CXX_COMPILER__infa_202
   OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
   OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_0.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_0.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_0.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
 build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_1.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_1.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
   DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_1.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_2.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_2.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_2.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_3.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_3.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_3.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_4.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_4.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_4.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_5.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_5.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_5.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_6.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_6.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_6.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_7.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_7.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_7.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_8.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_8.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_8.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_9.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_9.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_9.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_10.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_10.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_10.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_11.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_11.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_11.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_12.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_12.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_12.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
   OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
@@ -159,7 +252,7 @@ build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_1.cpp.obj: CXX_COMPILER__infa_202
 #############################################
 # Link the executable infa_2022_kozyrev.exe
 
-build infa_2022_kozyrev.exe: CXX_EXECUTABLE_LINKER__infa_2022_kozyrev_Debug CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N13.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N14.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N15.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_1.cpp.obj
+build infa_2022_kozyrev.exe: CXX_EXECUTABLE_LINKER__infa_2022_kozyrev_Debug CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N13.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N14.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N15.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_0.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_12.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
@@ -170,37 +263,334 @@ build infa_2022_kozyrev.exe: CXX_EXECUTABLE_LINKER__infa_2022_kozyrev_Debug CMak
   TARGET_PDB = infa_2022_kozyrev.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target N_1
+# Object build statements for EXECUTABLE target N_2
 
 
 #############################################
-# Order-only phony target for N_1
+# Order-only phony target for N_2
 
-build cmake_object_order_depends_target_N_1: phony || CMakeFiles/N_1.dir
+build cmake_object_order_depends_target_N_2: phony || CMakeFiles/N_2.dir
 
-build CMakeFiles/N_1.dir/Lab_2/N_1.cpp.obj: CXX_COMPILER__N_1_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_1.cpp || cmake_object_order_depends_target_N_1
-  DEP_FILE = CMakeFiles\N_1.dir\Lab_2\N_1.cpp.obj.d
+build CMakeFiles/N_2.dir/Lab_2/N_2.cpp.obj: CXX_COMPILER__N_2_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_2.cpp || cmake_object_order_depends_target_N_2
+  DEP_FILE = CMakeFiles\N_2.dir\Lab_2\N_2.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\N_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\N_1.dir\Lab_2
+  OBJECT_DIR = CMakeFiles\N_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_2.dir\Lab_2
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target N_1
+# Link build statements for EXECUTABLE target N_2
 
 
 #############################################
-# Link the executable N_1.exe
+# Link the executable N_2.exe
 
-build N_1.exe: CXX_EXECUTABLE_LINKER__N_1_Debug CMakeFiles/N_1.dir/Lab_2/N_1.cpp.obj
+build N_2.exe: CXX_EXECUTABLE_LINKER__N_2_Debug CMakeFiles/N_2.dir/Lab_2/N_2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\N_1.dir
+  OBJECT_DIR = CMakeFiles\N_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = N_1.exe
-  TARGET_IMPLIB = libN_1.dll.a
-  TARGET_PDB = N_1.exe.dbg
+  TARGET_FILE = N_2.exe
+  TARGET_IMPLIB = libN_2.dll.a
+  TARGET_PDB = N_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target N_3
+
+
+#############################################
+# Order-only phony target for N_3
+
+build cmake_object_order_depends_target_N_3: phony || CMakeFiles/N_3.dir
+
+build CMakeFiles/N_3.dir/Lab_2/N_3.cpp.obj: CXX_COMPILER__N_3_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_3.cpp || cmake_object_order_depends_target_N_3
+  DEP_FILE = CMakeFiles\N_3.dir\Lab_2\N_3.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\N_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_3.dir\Lab_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_3
+
+
+#############################################
+# Link the executable N_3.exe
+
+build N_3.exe: CXX_EXECUTABLE_LINKER__N_3_Debug CMakeFiles/N_3.dir/Lab_2/N_3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_3.exe
+  TARGET_IMPLIB = libN_3.dll.a
+  TARGET_PDB = N_3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target N_4
+
+
+#############################################
+# Order-only phony target for N_4
+
+build cmake_object_order_depends_target_N_4: phony || CMakeFiles/N_4.dir
+
+build CMakeFiles/N_4.dir/Lab_2/N_4.cpp.obj: CXX_COMPILER__N_4_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_4.cpp || cmake_object_order_depends_target_N_4
+  DEP_FILE = CMakeFiles\N_4.dir\Lab_2\N_4.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\N_4.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_4.dir\Lab_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_4
+
+
+#############################################
+# Link the executable N_4.exe
+
+build N_4.exe: CXX_EXECUTABLE_LINKER__N_4_Debug CMakeFiles/N_4.dir/Lab_2/N_4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_4.exe
+  TARGET_IMPLIB = libN_4.dll.a
+  TARGET_PDB = N_4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target N_6
+
+
+#############################################
+# Order-only phony target for N_6
+
+build cmake_object_order_depends_target_N_6: phony || CMakeFiles/N_6.dir
+
+build CMakeFiles/N_6.dir/Lab_2/N_6.cpp.obj: CXX_COMPILER__N_6_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_6.cpp || cmake_object_order_depends_target_N_6
+  DEP_FILE = CMakeFiles\N_6.dir\Lab_2\N_6.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\N_6.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_6.dir\Lab_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_6
+
+
+#############################################
+# Link the executable N_6.exe
+
+build N_6.exe: CXX_EXECUTABLE_LINKER__N_6_Debug CMakeFiles/N_6.dir/Lab_2/N_6.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_6.exe
+  TARGET_IMPLIB = libN_6.dll.a
+  TARGET_PDB = N_6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target N_7
+
+
+#############################################
+# Order-only phony target for N_7
+
+build cmake_object_order_depends_target_N_7: phony || CMakeFiles/N_7.dir
+
+build CMakeFiles/N_7.dir/Lab_2/N_7.cpp.obj: CXX_COMPILER__N_7_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_7.cpp || cmake_object_order_depends_target_N_7
+  DEP_FILE = CMakeFiles\N_7.dir\Lab_2\N_7.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\N_7.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_7.dir\Lab_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_7
+
+
+#############################################
+# Link the executable N_7.exe
+
+build N_7.exe: CXX_EXECUTABLE_LINKER__N_7_Debug CMakeFiles/N_7.dir/Lab_2/N_7.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_7.exe
+  TARGET_IMPLIB = libN_7.dll.a
+  TARGET_PDB = N_7.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target N_8
+
+
+#############################################
+# Order-only phony target for N_8
+
+build cmake_object_order_depends_target_N_8: phony || CMakeFiles/N_8.dir
+
+build CMakeFiles/N_8.dir/Lab_2/N_8.cpp.obj: CXX_COMPILER__N_8_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_8.cpp || cmake_object_order_depends_target_N_8
+  DEP_FILE = CMakeFiles\N_8.dir\Lab_2\N_8.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\N_8.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_8.dir\Lab_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_8
+
+
+#############################################
+# Link the executable N_8.exe
+
+build N_8.exe: CXX_EXECUTABLE_LINKER__N_8_Debug CMakeFiles/N_8.dir/Lab_2/N_8.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_8.exe
+  TARGET_IMPLIB = libN_8.dll.a
+  TARGET_PDB = N_8.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target N_12
+
+
+#############################################
+# Order-only phony target for N_12
+
+build cmake_object_order_depends_target_N_12: phony || CMakeFiles/N_12.dir
+
+build CMakeFiles/N_12.dir/Lab_2/N_12.cpp.obj: CXX_COMPILER__N_12_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_12.cpp || cmake_object_order_depends_target_N_12
+  DEP_FILE = CMakeFiles\N_12.dir\Lab_2\N_12.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\N_12.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_12.dir\Lab_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_12
+
+
+#############################################
+# Link the executable N_12.exe
+
+build N_12.exe: CXX_EXECUTABLE_LINKER__N_12_Debug CMakeFiles/N_12.dir/Lab_2/N_12.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_12.exe
+  TARGET_IMPLIB = libN_12.dll.a
+  TARGET_PDB = N_12.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target N_9
+
+
+#############################################
+# Order-only phony target for N_9
+
+build cmake_object_order_depends_target_N_9: phony || CMakeFiles/N_9.dir
+
+build CMakeFiles/N_9.dir/Lab_2/N_9.cpp.obj: CXX_COMPILER__N_9_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_9.cpp || cmake_object_order_depends_target_N_9
+  DEP_FILE = CMakeFiles\N_9.dir\Lab_2\N_9.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\N_9.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_9.dir\Lab_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_9
+
+
+#############################################
+# Link the executable N_9.exe
+
+build N_9.exe: CXX_EXECUTABLE_LINKER__N_9_Debug CMakeFiles/N_9.dir/Lab_2/N_9.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_9.exe
+  TARGET_IMPLIB = libN_9.dll.a
+  TARGET_PDB = N_9.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target N_10
+
+
+#############################################
+# Order-only phony target for N_10
+
+build cmake_object_order_depends_target_N_10: phony || CMakeFiles/N_10.dir
+
+build CMakeFiles/N_10.dir/Lab_2/N_10.cpp.obj: CXX_COMPILER__N_10_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_10.cpp || cmake_object_order_depends_target_N_10
+  DEP_FILE = CMakeFiles\N_10.dir\Lab_2\N_10.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\N_10.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_10.dir\Lab_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_10
+
+
+#############################################
+# Link the executable N_10.exe
+
+build N_10.exe: CXX_EXECUTABLE_LINKER__N_10_Debug CMakeFiles/N_10.dir/Lab_2/N_10.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_10.exe
+  TARGET_IMPLIB = libN_10.dll.a
+  TARGET_PDB = N_10.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target N_11
+
+
+#############################################
+# Order-only phony target for N_11
+
+build cmake_object_order_depends_target_N_11: phony || CMakeFiles/N_11.dir
+
+build CMakeFiles/N_11.dir/Lab_2/N_11.cpp.obj: CXX_COMPILER__N_11_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_11.cpp || cmake_object_order_depends_target_N_11
+  DEP_FILE = CMakeFiles\N_11.dir\Lab_2\N_11.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\N_11.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_11.dir\Lab_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_11
+
+
+#############################################
+# Link the executable N_11.exe
+
+build N_11.exe: CXX_EXECUTABLE_LINKER__N_11_Debug CMakeFiles/N_11.dir/Lab_2/N_11.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_11.exe
+  TARGET_IMPLIB = libN_11.dll.a
+  TARGET_PDB = N_11.exe.dbg
 
 
 #############################################
@@ -213,10 +603,42 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 
 build edit_cache: phony CMakeFiles/edit_cache.util
 
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Studying\Programming\infa_2022_kozyrev\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Studying\Programming\infa_2022_kozyrev -BC:\Studying\Programming\infa_2022_kozyrev\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
 # =============================================================================
 # Target aliases.
 
-build N_1: phony N_1.exe
+build N_10: phony N_10.exe
+
+build N_11: phony N_11.exe
+
+build N_12: phony N_12.exe
+
+build N_2: phony N_2.exe
+
+build N_3: phony N_3.exe
+
+build N_4: phony N_4.exe
+
+build N_5: phony N_5.exe
+
+build N_6: phony N_6.exe
+
+build N_7: phony N_7.exe
+
+build N_8: phony N_8.exe
+
+build N_9: phony N_9.exe
 
 build infa_2022_kozyrev: phony infa_2022_kozyrev.exe
 
@@ -228,7 +650,7 @@ build infa_2022_kozyrev: phony infa_2022_kozyrev.exe
 #############################################
 # Folder: C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug
 
-build all: phony infa_2022_kozyrev.exe N_1.exe
+build all: phony N_5.exe infa_2022_kozyrev.exe N_2.exe N_3.exe N_4.exe N_6.exe N_7.exe N_8.exe N_12.exe N_9.exe N_10.exe N_11.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,12 +1,22 @@
 #include <iostream>
 using namespace std;
 
-int minus_of_int(int x);
-
-int main()
+bool is_simple(int n)
 {
-    int x;
-    cin >> x;
-    cout << minus_of_int(x) << std::endl;
+    for (int i{2}; i <= n/2; ++i)
+    {
+        if (!(n % i))
+            return false;
+    }
+    return true;
+}
+
+int main ( ) {
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n; ++i)
+        if ( is_simple(i) )
+            cout << i << ' ';
+    cout << endl;
     return 0;
 }
