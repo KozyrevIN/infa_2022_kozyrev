@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: infa_2021_c__
+# Project: infa_2022_kozyrev
 # Configurations: Debug
 # =============================================================================
 
@@ -39,123 +39,135 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Studying/Programming/infa_2021_c++/cmake-build-debug/
+cmake_ninja_workdir = C$:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Studying\Programming\infa_2022_kozyrev\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Studying\Programming\infa_2022_kozyrev -BC:\Studying\Programming\infa_2022_kozyrev\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
 # =============================================================================
-# Object build statements for EXECUTABLE target infa_2021_c__
+# Object build statements for EXECUTABLE target infa_2022_kozyrev
 
 
 #############################################
-# Order-only phony target for infa_2021_c__
+# Order-only phony target for infa_2022_kozyrev
 
-build cmake_object_order_depends_target_infa_2021_c__: phony || CMakeFiles/infa_2021_c__.dir
+build cmake_object_order_depends_target_infa_2022_kozyrev: phony || CMakeFiles/infa_2022_kozyrev.dir
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N1.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N1.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N1.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N1.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N1.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N1.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N3.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N3.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N3.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N3.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N3.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N3.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N4.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N4.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N4.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N4.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N4.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N4.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N5.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N5.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N5.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N5.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N5.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N5.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N6.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N6.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N6.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N6.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N6.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N6.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N7.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N7.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N7.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N7.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N7.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N7.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N8.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N8.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N8.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N8.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N8.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N8.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N9.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N9.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N9.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N9.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N9.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N9.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N10.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N10.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N10.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N10.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N10.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N10.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N11.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N11.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N11.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N11.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N11.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N11.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N12.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N12.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N12.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N12.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N12.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N12.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N13.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N13.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N13.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N13.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N13.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N13.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N14.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N14.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N14.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N14.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N14.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N14.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_1/N15.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_1/N15.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_1\N15.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N15.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_1/N15.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_1\N15.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_1
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_1
 
-build CMakeFiles/infa_2021_c__.dir/Lab_2/N_1.cpp.obj: CXX_COMPILER__infa_2021_c___Debug C$:/Studying/Programming/infa_2021_c++/Lab_2/N_1.cpp || cmake_object_order_depends_target_infa_2021_c__
-  DEP_FILE = CMakeFiles\infa_2021_c__.dir\Lab_2\N_1.cpp.obj.d
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_1.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_1.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_2\N_1.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
-  OBJECT_FILE_DIR = CMakeFiles\infa_2021_c__.dir\Lab_2
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_2
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target infa_2021_c__
+# Link build statements for EXECUTABLE target infa_2022_kozyrev
 
 
 #############################################
-# Link the executable infa_2021_c__.exe
+# Link the executable infa_2022_kozyrev.exe
 
-build infa_2021_c__.exe: CXX_EXECUTABLE_LINKER__infa_2021_c___Debug CMakeFiles/infa_2021_c__.dir/Lab_1/N1.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N3.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N4.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N5.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N6.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N7.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N8.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N9.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N10.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N11.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N12.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N13.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N14.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_1/N15.cpp.obj CMakeFiles/infa_2021_c__.dir/Lab_2/N_1.cpp.obj
+build infa_2022_kozyrev.exe: CXX_EXECUTABLE_LINKER__infa_2022_kozyrev_Debug CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N13.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N14.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N15.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\infa_2021_c__.dir
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = infa_2021_c__.exe
-  TARGET_IMPLIB = libinfa_2021_c__.dll.a
-  TARGET_PDB = infa_2021_c__.exe.dbg
+  TARGET_FILE = infa_2022_kozyrev.exe
+  TARGET_IMPLIB = libinfa_2022_kozyrev.dll.a
+  TARGET_PDB = infa_2022_kozyrev.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target N_1
@@ -166,7 +178,7 @@ build infa_2021_c__.exe: CXX_EXECUTABLE_LINKER__infa_2021_c___Debug CMakeFiles/i
 
 build cmake_object_order_depends_target_N_1: phony || CMakeFiles/N_1.dir
 
-build CMakeFiles/N_1.dir/Lab_2/N_1.cpp.obj: CXX_COMPILER__N_1_Debug C$:/Studying/Programming/infa_2021_c++/Lab_2/N_1.cpp || cmake_object_order_depends_target_N_1
+build CMakeFiles/N_1.dir/Lab_2/N_1.cpp.obj: CXX_COMPILER__N_1_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_2/N_1.cpp || cmake_object_order_depends_target_N_1
   DEP_FILE = CMakeFiles\N_1.dir\Lab_2\N_1.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\N_1.dir
@@ -195,30 +207,18 @@ build N_1.exe: CXX_EXECUTABLE_LINKER__N_1_Debug CMakeFiles/N_1.dir/Lab_2/N_1.cpp
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Studying\Programming\infa_2021_c++\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Studying\Programming\infa_2022_kozyrev\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Studying\Programming\infa_2021_c++\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Studying\Programming\infa_2021_c++ -BC:\Studying\Programming\infa_2021_c++\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
 build N_1: phony N_1.exe
 
-build infa_2021_c__: phony infa_2021_c__.exe
+build infa_2022_kozyrev: phony infa_2022_kozyrev.exe
 
 # =============================================================================
 # Folder targets.
@@ -226,9 +226,9 @@ build infa_2021_c__: phony infa_2021_c__.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Studying/Programming/infa_2021_c++/cmake-build-debug
+# Folder: C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug
 
-build all: phony infa_2021_c__.exe N_1.exe
+build all: phony infa_2022_kozyrev.exe N_1.exe
 
 # =============================================================================
 # Built-in targets

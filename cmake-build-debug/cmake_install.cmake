@@ -1,8 +1,8 @@
-# Install script for directory: C:/Studying/Programming/infa_2021_c++
+# Install script for directory: C:/Studying/Programming/infa_2022_kozyrev
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/infa_2021_c__")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/infa_2022_c")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Studying/Programming/infa_2021_c++/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

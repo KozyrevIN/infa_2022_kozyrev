@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "infa_2021_c__.exe"
+			"path" : "infa_2022_kozyrev.exe"
 		},
 		{
-			"path" : "infa_2021_c__.pdb"
+			"path" : "infa_2022_kozyrev.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -73,7 +73,7 @@
 			]
 		}
 	],
-	"id" : "infa_2021_c__::@6890427a1f51a3e7e1df",
+	"id" : "infa_2022_kozyrev::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -93,8 +93,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "infa_2021_c__",
-	"nameOnDisk" : "infa_2021_c__.exe",
+	"name" : "infa_2022_kozyrev",
+	"nameOnDisk" : "infa_2022_kozyrev.exe",
 	"paths" : 
 	{
 		"build" : ".",

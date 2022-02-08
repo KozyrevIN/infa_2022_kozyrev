@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "infa_2021_c__",
+					"name" : "infa_2022_kozyrev",
 					"targetIndexes" : 
 					[
 						0,
@@ -47,9 +47,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "infa_2021_c__::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-infa_2021_c__-Debug-0248a828ea28421b305a.json",
-					"name" : "infa_2021_c__",
+					"id" : "infa_2022_kozyrev::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-infa_2022_kozyrev-Debug-93244834273397abe7de.json",
+					"name" : "infa_2022_kozyrev",
 					"projectIndex" : 0
 				}
 			]
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Studying/Programming/infa_2021_c++/cmake-build-debug",
-		"source" : "C:/Studying/Programming/infa_2021_c++"
+		"build" : "C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug",
+		"source" : "C:/Studying/Programming/infa_2022_kozyrev"
 	},
 	"version" : 
 	{

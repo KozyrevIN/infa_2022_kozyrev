@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Studying/Programming/infa_2021_c++/cmake-build-debug"
+			"value" : "c:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Studying/Programming/infa_2021_c++"
+			"value" : "C:/Studying/Programming/infa_2022_kozyrev"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -635,7 +635,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/infa_2021_c__"
+			"value" : "C:/Program Files (x86)/infa_2022_c"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "infa_2021_c__"
+			"value" : "infa_2022_kozyrev"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1230,7 +1230,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "infa_2021_c___BINARY_DIR",
+			"name" : "infa_2022_c_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1239,10 +1239,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Studying/Programming/infa_2021_c++/cmake-build-debug"
+			"value" : "C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug"
 		},
 		{
-			"name" : "infa_2021_c___IS_TOP_LEVEL",
+			"name" : "infa_2022_c_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1254,7 +1254,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "infa_2021_c___SOURCE_DIR",
+			"name" : "infa_2022_c_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1263,7 +1263,43 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Studying/Programming/infa_2021_c++"
+			"value" : "C:/Studying/Programming/infa_2022_kozyrev"
+		},
+		{
+			"name" : "infa_2022_kozyrev_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug"
+		},
+		{
+			"name" : "infa_2022_kozyrev_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "infa_2022_kozyrev_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Studying/Programming/infa_2022_kozyrev"
 		}
 	],
 	"kind" : "cache",
