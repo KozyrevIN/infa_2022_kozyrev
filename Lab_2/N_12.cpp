@@ -12,6 +12,8 @@ unsigned long get_really_any_hexadecimal()
             decimal = 16 * decimal + h_digit - '0';
         else if ('A' <= h_digit && h_digit <= 'F')
             decimal = 16 * decimal + 10 + h_digit - 'A';
+        else if ('a' <= h_digit && h_digit <= 'f')
+            decimal = 16 * decimal + 10 + h_digit - 'a';
     }
     return decimal;
 }
