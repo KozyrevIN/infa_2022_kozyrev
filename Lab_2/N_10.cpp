@@ -9,7 +9,7 @@ char get_a_letter();
 char get_a_letter()
 {
     char c;
-    for (cin >> c; !('A' <= c && c <= 'z'); cin >> c);
+    for (cin >> c; !(('A' <= c && c <= 'Z') || ('a' <= c && c <= 'z')); cin >> c);
     return c;
 }
 
