@@ -4,7 +4,7 @@ using namespace std;
 unsigned int get_a_hexadecimal()
 {
     string hex;
-    unsigned int decimal;
+    unsigned int decimal{0};
     cin >> hex;
     for (char h_digit : hex)
     {
