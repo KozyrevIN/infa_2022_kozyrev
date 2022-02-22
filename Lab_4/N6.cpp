@@ -27,7 +27,7 @@ int main()
 
     int** tranmat;
     tranmat = transpose(mat, N, M);
-
+    std::cout << '\n';
     for (int i{0}; i<M; ++i)
     {
         for (int j{0}; j<N; ++j)
