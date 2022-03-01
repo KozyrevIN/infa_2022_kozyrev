@@ -1,9 +1,12 @@
 C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/infa_2022_kozyrev.dir
 C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N6.dir
-C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N1.dir
 C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N2.dir
 C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N3.dir
 C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N4.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/Bubble_sort.dir
 C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N5.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/Quick_sort.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/Merge_sort.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/rebuild_cache.dir

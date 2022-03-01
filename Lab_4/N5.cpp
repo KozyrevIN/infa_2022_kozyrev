@@ -14,5 +14,5 @@ int main()
     arr[13] = 6;
     int* ptrcopy;
     ptrcopy = copyarr(&arr[0], 100);
-    std::cout<< ptrcopy[13];
+    std::cout << ptrcopy[13];
 }

@@ -319,6 +319,12 @@ build CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N6.cpp.obj: CXX_COMPILER__infa_2022
   OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
   OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_4
 
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_5/Bubble_sort.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_5/Bubble_sort.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_5\Bubble_sort.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_5
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target infa_2022_kozyrev
@@ -327,7 +333,7 @@ build CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N6.cpp.obj: CXX_COMPILER__infa_2022
 #############################################
 # Link the executable infa_2022_kozyrev.exe
 
-build infa_2022_kozyrev.exe: CXX_EXECUTABLE_LINKER__infa_2022_kozyrev_Debug CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N13.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N14.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N15.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_0.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N6.cpp.obj
+build infa_2022_kozyrev.exe: CXX_EXECUTABLE_LINKER__infa_2022_kozyrev_Debug CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N13.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N14.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N15.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_0.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_5/Bubble_sort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
@@ -369,17 +375,6 @@ build N6.exe: CXX_EXECUTABLE_LINKER__N6_Debug CMakeFiles/N6.dir/Lab_4/N6.cpp.obj
   TARGET_FILE = N6.exe
   TARGET_IMPLIB = libN6.dll.a
   TARGET_PDB = N6.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Studying\Programming\infa_2022_kozyrev\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
 # Object build statements for EXECUTABLE target N1
@@ -514,6 +509,51 @@ build N4.exe: CXX_EXECUTABLE_LINKER__N4_Debug CMakeFiles/N4.dir/Lab_4/N4.cpp.obj
   TARGET_PDB = N4.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Bubble_sort
+
+
+#############################################
+# Order-only phony target for Bubble_sort
+
+build cmake_object_order_depends_target_Bubble_sort: phony || CMakeFiles/Bubble_sort.dir
+
+build CMakeFiles/Bubble_sort.dir/Lab_5/Bubble_sort.cpp.obj: CXX_COMPILER__Bubble_sort_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_5/Bubble_sort.cpp || cmake_object_order_depends_target_Bubble_sort
+  DEP_FILE = CMakeFiles\Bubble_sort.dir\Lab_5\Bubble_sort.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Bubble_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\Bubble_sort.dir\Lab_5
+
+build CMakeFiles/Bubble_sort.dir/Lab_5/Quick_sort.cpp.obj: CXX_COMPILER__Bubble_sort_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_5/Quick_sort.cpp || cmake_object_order_depends_target_Bubble_sort
+  DEP_FILE = CMakeFiles\Bubble_sort.dir\Lab_5\Quick_sort.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Bubble_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\Bubble_sort.dir\Lab_5
+
+build CMakeFiles/Bubble_sort.dir/Lab_5/Merge_sort.cpp.obj: CXX_COMPILER__Bubble_sort_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_5/Merge_sort.cpp || cmake_object_order_depends_target_Bubble_sort
+  DEP_FILE = CMakeFiles\Bubble_sort.dir\Lab_5\Merge_sort.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Bubble_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\Bubble_sort.dir\Lab_5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Bubble_sort
+
+
+#############################################
+# Link the executable Bubble_sort.exe
+
+build Bubble_sort.exe: CXX_EXECUTABLE_LINKER__Bubble_sort_Debug CMakeFiles/Bubble_sort.dir/Lab_5/Bubble_sort.cpp.obj CMakeFiles/Bubble_sort.dir/Lab_5/Quick_sort.cpp.obj CMakeFiles/Bubble_sort.dir/Lab_5/Merge_sort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Bubble_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Bubble_sort.exe
+  TARGET_IMPLIB = libBubble_sort.dll.a
+  TARGET_PDB = Bubble_sort.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target N5
 
 
@@ -546,6 +586,83 @@ build N5.exe: CXX_EXECUTABLE_LINKER__N5_Debug CMakeFiles/N5.dir/Lab_4/N5.cpp.obj
   TARGET_IMPLIB = libN5.dll.a
   TARGET_PDB = N5.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Quick_sort
+
+
+#############################################
+# Order-only phony target for Quick_sort
+
+build cmake_object_order_depends_target_Quick_sort: phony || CMakeFiles/Quick_sort.dir
+
+build CMakeFiles/Quick_sort.dir/Lab_5/Quick_sort.cpp.obj: CXX_COMPILER__Quick_sort_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_5/Quick_sort.cpp || cmake_object_order_depends_target_Quick_sort
+  DEP_FILE = CMakeFiles\Quick_sort.dir\Lab_5\Quick_sort.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Quick_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\Quick_sort.dir\Lab_5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Quick_sort
+
+
+#############################################
+# Link the executable Quick_sort.exe
+
+build Quick_sort.exe: CXX_EXECUTABLE_LINKER__Quick_sort_Debug CMakeFiles/Quick_sort.dir/Lab_5/Quick_sort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Quick_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Quick_sort.exe
+  TARGET_IMPLIB = libQuick_sort.dll.a
+  TARGET_PDB = Quick_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Merge_sort
+
+
+#############################################
+# Order-only phony target for Merge_sort
+
+build cmake_object_order_depends_target_Merge_sort: phony || CMakeFiles/Merge_sort.dir
+
+build CMakeFiles/Merge_sort.dir/Lab_5/Merge_sort.cpp.obj: CXX_COMPILER__Merge_sort_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_5/Merge_sort.cpp || cmake_object_order_depends_target_Merge_sort
+  DEP_FILE = CMakeFiles\Merge_sort.dir\Lab_5\Merge_sort.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Merge_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\Merge_sort.dir\Lab_5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Merge_sort
+
+
+#############################################
+# Link the executable Merge_sort.exe
+
+build Merge_sort.exe: CXX_EXECUTABLE_LINKER__Merge_sort_Debug CMakeFiles/Merge_sort.dir/Lab_5/Merge_sort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Merge_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Merge_sort.exe
+  TARGET_IMPLIB = libMerge_sort.dll.a
+  TARGET_PDB = Merge_sort.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Studying\Programming\infa_2022_kozyrev\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -561,6 +678,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Bubble_sort: phony Bubble_sort.exe
+
+build Merge_sort: phony Merge_sort.exe
+
 build N1: phony N1.exe
 
 build N2: phony N2.exe
@@ -573,6 +694,8 @@ build N5: phony N5.exe
 
 build N6: phony N6.exe
 
+build Quick_sort: phony Quick_sort.exe
+
 build infa_2022_kozyrev: phony infa_2022_kozyrev.exe
 
 # =============================================================================
@@ -583,7 +706,7 @@ build infa_2022_kozyrev: phony infa_2022_kozyrev.exe
 #############################################
 # Folder: C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug
 
-build all: phony infa_2022_kozyrev.exe N6.exe N1.exe N2.exe N3.exe N4.exe N5.exe
+build all: phony infa_2022_kozyrev.exe N6.exe N1.exe N2.exe N3.exe N4.exe Bubble_sort.exe N5.exe Quick_sort.exe Merge_sort.exe
 
 # =============================================================================
 # Built-in targets
