@@ -1,0 +1,4 @@
+C:/Studying/Programming/infa_2022_kozyrev/kr/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Studying/Programming/infa_2022_kozyrev/kr/cmake-build-debug/CMakeFiles/main.dir
+C:/Studying/Programming/infa_2022_kozyrev/kr/cmake-build-debug/CMakeFiles/kr.dir
+C:/Studying/Programming/infa_2022_kozyrev/kr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
