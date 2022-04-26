@@ -337,6 +337,24 @@ build CMakeFiles/infa_2022_kozyrev.dir/Lab_9/lists.cpp.obj: CXX_COMPILER__infa_2
   OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
   OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_9
 
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_10/knapsack.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_10/knapsack.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_10\knapsack.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_10
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_10/money.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_10/money.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_10\money.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_10
+
+build CMakeFiles/infa_2022_kozyrev.dir/Lab_10/application.cpp.obj: CXX_COMPILER__infa_2022_kozyrev_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_10/application.cpp || cmake_object_order_depends_target_infa_2022_kozyrev
+  DEP_FILE = CMakeFiles\infa_2022_kozyrev.dir\Lab_10\application.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
+  OBJECT_FILE_DIR = CMakeFiles\infa_2022_kozyrev.dir\Lab_10
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target infa_2022_kozyrev
@@ -345,7 +363,7 @@ build CMakeFiles/infa_2022_kozyrev.dir/Lab_9/lists.cpp.obj: CXX_COMPILER__infa_2
 #############################################
 # Link the executable infa_2022_kozyrev.exe
 
-build infa_2022_kozyrev.exe: CXX_EXECUTABLE_LINKER__infa_2022_kozyrev_Debug CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N13.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N14.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N15.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_0.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_5/Bubble_sort.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_8/N_1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_9/lists.cpp.obj
+build infa_2022_kozyrev.exe: CXX_EXECUTABLE_LINKER__infa_2022_kozyrev_Debug CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N13.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N14.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_1/N15.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_0.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_2/N_12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N7.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N8.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N9.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N10.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N11.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_3/N12.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N2.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N3.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N4.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N5.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_4/N6.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_5/Bubble_sort.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_8/N_1.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_9/lists.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_10/knapsack.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_10/money.cpp.obj CMakeFiles/infa_2022_kozyrev.dir/Lab_10/application.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\infa_2022_kozyrev.dir
@@ -356,70 +374,55 @@ build infa_2022_kozyrev.exe: CXX_EXECUTABLE_LINKER__infa_2022_kozyrev_Debug CMak
   TARGET_PDB = infa_2022_kozyrev.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target N6
+# Object build statements for EXECUTABLE target application
 
 
 #############################################
-# Order-only phony target for N6
+# Order-only phony target for application
 
-build cmake_object_order_depends_target_N6: phony || CMakeFiles/N6.dir
+build cmake_object_order_depends_target_application: phony || CMakeFiles/application.dir
 
-build CMakeFiles/N6.dir/Lab_9/N6.cpp.obj: CXX_COMPILER__N6_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_9/N6.cpp || cmake_object_order_depends_target_N6
-  DEP_FILE = CMakeFiles\N6.dir\Lab_9\N6.cpp.obj.d
+build CMakeFiles/application.dir/Lab_10/application.cpp.obj: CXX_COMPILER__application_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_10/application.cpp || cmake_object_order_depends_target_application
+  DEP_FILE = CMakeFiles\application.dir\Lab_10\application.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\N6.dir
-  OBJECT_FILE_DIR = CMakeFiles\N6.dir\Lab_9
+  OBJECT_DIR = CMakeFiles\application.dir
+  OBJECT_FILE_DIR = CMakeFiles\application.dir\Lab_10
+
+build CMakeFiles/application.dir/Lab_11/subsequence.cpp.obj: CXX_COMPILER__application_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_11/subsequence.cpp || cmake_object_order_depends_target_application
+  DEP_FILE = CMakeFiles\application.dir\Lab_11\subsequence.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\application.dir
+  OBJECT_FILE_DIR = CMakeFiles\application.dir\Lab_11
+
+build CMakeFiles/application.dir/Lab_11/chess.cpp.obj: CXX_COMPILER__application_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_11/chess.cpp || cmake_object_order_depends_target_application
+  DEP_FILE = CMakeFiles\application.dir\Lab_11\chess.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\application.dir
+  OBJECT_FILE_DIR = CMakeFiles\application.dir\Lab_11
+
+build CMakeFiles/application.dir/Lab_11/nails.cpp.obj: CXX_COMPILER__application_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_11/nails.cpp || cmake_object_order_depends_target_application
+  DEP_FILE = CMakeFiles\application.dir\Lab_11\nails.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\application.dir
+  OBJECT_FILE_DIR = CMakeFiles\application.dir\Lab_11
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target N6
+# Link build statements for EXECUTABLE target application
 
 
 #############################################
-# Link the executable N6.exe
+# Link the executable application.exe
 
-build N6.exe: CXX_EXECUTABLE_LINKER__N6_Debug CMakeFiles/N6.dir/Lab_9/N6.cpp.obj
+build application.exe: CXX_EXECUTABLE_LINKER__application_Debug CMakeFiles/application.dir/Lab_10/application.cpp.obj CMakeFiles/application.dir/Lab_11/subsequence.cpp.obj CMakeFiles/application.dir/Lab_11/chess.cpp.obj CMakeFiles/application.dir/Lab_11/nails.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\N6.dir
+  OBJECT_DIR = CMakeFiles\application.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = N6.exe
-  TARGET_IMPLIB = libN6.dll.a
-  TARGET_PDB = N6.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target N2
-
-
-#############################################
-# Order-only phony target for N2
-
-build cmake_object_order_depends_target_N2: phony || CMakeFiles/N2.dir
-
-build CMakeFiles/N2.dir/Lab_9/N2.cpp.obj: CXX_COMPILER__N2_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_9/N2.cpp || cmake_object_order_depends_target_N2
-  DEP_FILE = CMakeFiles\N2.dir\Lab_9\N2.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\N2.dir
-  OBJECT_FILE_DIR = CMakeFiles\N2.dir\Lab_9
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target N2
-
-
-#############################################
-# Link the executable N2.exe
-
-build N2.exe: CXX_EXECUTABLE_LINKER__N2_Debug CMakeFiles/N2.dir/Lab_9/N2.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\N2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = N2.exe
-  TARGET_IMPLIB = libN2.dll.a
-  TARGET_PDB = N2.exe.dbg
+  TARGET_FILE = application.exe
+  TARGET_IMPLIB = libapplication.dll.a
+  TARGET_PDB = application.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target N_1
@@ -430,11 +433,11 @@ build N2.exe: CXX_EXECUTABLE_LINKER__N2_Debug CMakeFiles/N2.dir/Lab_9/N2.cpp.obj
 
 build cmake_object_order_depends_target_N_1: phony || CMakeFiles/N_1.dir
 
-build CMakeFiles/N_1.dir/Lab_8/N_1.cpp.obj: CXX_COMPILER__N_1_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_8/N_1.cpp || cmake_object_order_depends_target_N_1
-  DEP_FILE = CMakeFiles\N_1.dir\Lab_8\N_1.cpp.obj.d
+build CMakeFiles/N_1.dir/Lab_10/knapsack.cpp.obj: CXX_COMPILER__N_1_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_10/knapsack.cpp || cmake_object_order_depends_target_N_1
+  DEP_FILE = CMakeFiles\N_1.dir\Lab_10\knapsack.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\N_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\N_1.dir\Lab_8
+  OBJECT_FILE_DIR = CMakeFiles\N_1.dir\Lab_10
 
 
 # =============================================================================
@@ -444,7 +447,7 @@ build CMakeFiles/N_1.dir/Lab_8/N_1.cpp.obj: CXX_COMPILER__N_1_Debug C$:/Studying
 #############################################
 # Link the executable N_1.exe
 
-build N_1.exe: CXX_EXECUTABLE_LINKER__N_1_Debug CMakeFiles/N_1.dir/Lab_8/N_1.cpp.obj
+build N_1.exe: CXX_EXECUTABLE_LINKER__N_1_Debug CMakeFiles/N_1.dir/Lab_10/knapsack.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\N_1.dir
@@ -455,136 +458,169 @@ build N_1.exe: CXX_EXECUTABLE_LINKER__N_1_Debug CMakeFiles/N_1.dir/Lab_8/N_1.cpp
   TARGET_PDB = N_1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target lists
+# Object build statements for EXECUTABLE target chess
 
 
 #############################################
-# Order-only phony target for lists
+# Order-only phony target for chess
 
-build cmake_object_order_depends_target_lists: phony || CMakeFiles/lists.dir
+build cmake_object_order_depends_target_chess: phony || CMakeFiles/chess.dir
 
-build CMakeFiles/lists.dir/Lab_9/lists.cpp.obj: CXX_COMPILER__lists_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_9/lists.cpp || cmake_object_order_depends_target_lists
-  DEP_FILE = CMakeFiles\lists.dir\Lab_9\lists.cpp.obj.d
+build CMakeFiles/chess.dir/Lab_11/chess.cpp.obj: CXX_COMPILER__chess_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_11/chess.cpp || cmake_object_order_depends_target_chess
+  DEP_FILE = CMakeFiles\chess.dir\Lab_11\chess.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\lists.dir
-  OBJECT_FILE_DIR = CMakeFiles\lists.dir\Lab_9
+  OBJECT_DIR = CMakeFiles\chess.dir
+  OBJECT_FILE_DIR = CMakeFiles\chess.dir\Lab_11
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lists
+# Link build statements for EXECUTABLE target chess
 
 
 #############################################
-# Link the executable lists.exe
+# Link the executable chess.exe
 
-build lists.exe: CXX_EXECUTABLE_LINKER__lists_Debug CMakeFiles/lists.dir/Lab_9/lists.cpp.obj
+build chess.exe: CXX_EXECUTABLE_LINKER__chess_Debug CMakeFiles/chess.dir/Lab_11/chess.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\lists.dir
+  OBJECT_DIR = CMakeFiles\chess.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = lists.exe
-  TARGET_IMPLIB = liblists.dll.a
-  TARGET_PDB = lists.exe.dbg
+  TARGET_FILE = chess.exe
+  TARGET_IMPLIB = libchess.dll.a
+  TARGET_PDB = chess.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target N1
+# Object build statements for EXECUTABLE target money
 
 
 #############################################
-# Order-only phony target for N1
+# Order-only phony target for money
 
-build cmake_object_order_depends_target_N1: phony || CMakeFiles/N1.dir
+build cmake_object_order_depends_target_money: phony || CMakeFiles/money.dir
 
-build CMakeFiles/N1.dir/Lab_9/N1.cpp.obj: CXX_COMPILER__N1_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_9/N1.cpp || cmake_object_order_depends_target_N1
-  DEP_FILE = CMakeFiles\N1.dir\Lab_9\N1.cpp.obj.d
+build CMakeFiles/money.dir/Lab_10/money.cpp.obj: CXX_COMPILER__money_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_10/money.cpp || cmake_object_order_depends_target_money
+  DEP_FILE = CMakeFiles\money.dir\Lab_10\money.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\N1.dir
-  OBJECT_FILE_DIR = CMakeFiles\N1.dir\Lab_9
+  OBJECT_DIR = CMakeFiles\money.dir
+  OBJECT_FILE_DIR = CMakeFiles\money.dir\Lab_10
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target N1
+# Link build statements for EXECUTABLE target money
 
 
 #############################################
-# Link the executable N1.exe
+# Link the executable money.exe
 
-build N1.exe: CXX_EXECUTABLE_LINKER__N1_Debug CMakeFiles/N1.dir/Lab_9/N1.cpp.obj
+build money.exe: CXX_EXECUTABLE_LINKER__money_Debug CMakeFiles/money.dir/Lab_10/money.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\N1.dir
+  OBJECT_DIR = CMakeFiles\money.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = N1.exe
-  TARGET_IMPLIB = libN1.dll.a
-  TARGET_PDB = N1.exe.dbg
+  TARGET_FILE = money.exe
+  TARGET_IMPLIB = libmoney.dll.a
+  TARGET_PDB = money.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target N7
+# Object build statements for EXECUTABLE target knapsack
 
 
 #############################################
-# Order-only phony target for N7
+# Order-only phony target for knapsack
 
-build cmake_object_order_depends_target_N7: phony || CMakeFiles/N7.dir
+build cmake_object_order_depends_target_knapsack: phony || CMakeFiles/knapsack.dir
 
-build CMakeFiles/N7.dir/Lab_9/N7.cpp.obj: CXX_COMPILER__N7_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_9/N7.cpp || cmake_object_order_depends_target_N7
-  DEP_FILE = CMakeFiles\N7.dir\Lab_9\N7.cpp.obj.d
+build CMakeFiles/knapsack.dir/Lab_10/knapsack.cpp.obj: CXX_COMPILER__knapsack_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_10/knapsack.cpp || cmake_object_order_depends_target_knapsack
+  DEP_FILE = CMakeFiles\knapsack.dir\Lab_10\knapsack.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\N7.dir
-  OBJECT_FILE_DIR = CMakeFiles\N7.dir\Lab_9
+  OBJECT_DIR = CMakeFiles\knapsack.dir
+  OBJECT_FILE_DIR = CMakeFiles\knapsack.dir\Lab_10
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target N7
+# Link build statements for EXECUTABLE target knapsack
 
 
 #############################################
-# Link the executable N7.exe
+# Link the executable knapsack.exe
 
-build N7.exe: CXX_EXECUTABLE_LINKER__N7_Debug CMakeFiles/N7.dir/Lab_9/N7.cpp.obj
+build knapsack.exe: CXX_EXECUTABLE_LINKER__knapsack_Debug CMakeFiles/knapsack.dir/Lab_10/knapsack.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\N7.dir
+  OBJECT_DIR = CMakeFiles\knapsack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = N7.exe
-  TARGET_IMPLIB = libN7.dll.a
-  TARGET_PDB = N7.exe.dbg
+  TARGET_FILE = knapsack.exe
+  TARGET_IMPLIB = libknapsack.dll.a
+  TARGET_PDB = knapsack.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target N11
+# Object build statements for EXECUTABLE target subsequence
 
 
 #############################################
-# Order-only phony target for N11
+# Order-only phony target for subsequence
 
-build cmake_object_order_depends_target_N11: phony || CMakeFiles/N11.dir
+build cmake_object_order_depends_target_subsequence: phony || CMakeFiles/subsequence.dir
 
-build CMakeFiles/N11.dir/Lab_9/N11.cpp.obj: CXX_COMPILER__N11_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_9/N11.cpp || cmake_object_order_depends_target_N11
-  DEP_FILE = CMakeFiles\N11.dir\Lab_9\N11.cpp.obj.d
+build CMakeFiles/subsequence.dir/Lab_11/subsequence.cpp.obj: CXX_COMPILER__subsequence_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_11/subsequence.cpp || cmake_object_order_depends_target_subsequence
+  DEP_FILE = CMakeFiles\subsequence.dir\Lab_11\subsequence.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\N11.dir
-  OBJECT_FILE_DIR = CMakeFiles\N11.dir\Lab_9
+  OBJECT_DIR = CMakeFiles\subsequence.dir
+  OBJECT_FILE_DIR = CMakeFiles\subsequence.dir\Lab_11
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target N11
+# Link build statements for EXECUTABLE target subsequence
 
 
 #############################################
-# Link the executable N11.exe
+# Link the executable subsequence.exe
 
-build N11.exe: CXX_EXECUTABLE_LINKER__N11_Debug CMakeFiles/N11.dir/Lab_9/N11.cpp.obj
+build subsequence.exe: CXX_EXECUTABLE_LINKER__subsequence_Debug CMakeFiles/subsequence.dir/Lab_11/subsequence.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\N11.dir
+  OBJECT_DIR = CMakeFiles\subsequence.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = N11.exe
-  TARGET_IMPLIB = libN11.dll.a
-  TARGET_PDB = N11.exe.dbg
+  TARGET_FILE = subsequence.exe
+  TARGET_IMPLIB = libsubsequence.dll.a
+  TARGET_PDB = subsequence.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target nails
+
+
+#############################################
+# Order-only phony target for nails
+
+build cmake_object_order_depends_target_nails: phony || CMakeFiles/nails.dir
+
+build CMakeFiles/nails.dir/Lab_11/nails.cpp.obj: CXX_COMPILER__nails_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_11/nails.cpp || cmake_object_order_depends_target_nails
+  DEP_FILE = CMakeFiles\nails.dir\Lab_11\nails.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\nails.dir
+  OBJECT_FILE_DIR = CMakeFiles\nails.dir\Lab_11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target nails
+
+
+#############################################
+# Link the executable nails.exe
+
+build nails.exe: CXX_EXECUTABLE_LINKER__nails_Debug CMakeFiles/nails.dir/Lab_11/nails.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\nails.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = nails.exe
+  TARGET_IMPLIB = libnails.dll.a
+  TARGET_PDB = nails.exe.dbg
 
 
 #############################################
@@ -612,21 +648,21 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build N1: phony N1.exe
-
-build N11: phony N11.exe
-
-build N2: phony N2.exe
-
-build N6: phony N6.exe
-
-build N7: phony N7.exe
-
 build N_1: phony N_1.exe
+
+build application: phony application.exe
+
+build chess: phony chess.exe
 
 build infa_2022_kozyrev: phony infa_2022_kozyrev.exe
 
-build lists: phony lists.exe
+build knapsack: phony knapsack.exe
+
+build money: phony money.exe
+
+build nails: phony nails.exe
+
+build subsequence: phony subsequence.exe
 
 # =============================================================================
 # Folder targets.
@@ -636,7 +672,7 @@ build lists: phony lists.exe
 #############################################
 # Folder: C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug
 
-build all: phony infa_2022_kozyrev.exe N6.exe N2.exe N_1.exe lists.exe N1.exe N7.exe N11.exe
+build all: phony infa_2022_kozyrev.exe application.exe N_1.exe chess.exe money.exe knapsack.exe subsequence.exe nails.exe
 
 # =============================================================================
 # Built-in targets
