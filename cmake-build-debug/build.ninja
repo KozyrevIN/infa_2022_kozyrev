@@ -406,6 +406,12 @@ build CMakeFiles/application.dir/Lab_11/nails.cpp.obj: CXX_COMPILER__application
   OBJECT_DIR = CMakeFiles\application.dir
   OBJECT_FILE_DIR = CMakeFiles\application.dir\Lab_11
 
+build CMakeFiles/application.dir/Lab_11/game.cpp.obj: CXX_COMPILER__application_Debug C$:/Studying/Programming/infa_2022_kozyrev/Lab_11/game.cpp || cmake_object_order_depends_target_application
+  DEP_FILE = CMakeFiles\application.dir\Lab_11\game.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\application.dir
+  OBJECT_FILE_DIR = CMakeFiles\application.dir\Lab_11
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target application
@@ -414,7 +420,7 @@ build CMakeFiles/application.dir/Lab_11/nails.cpp.obj: CXX_COMPILER__application
 #############################################
 # Link the executable application.exe
 
-build application.exe: CXX_EXECUTABLE_LINKER__application_Debug CMakeFiles/application.dir/Lab_10/application.cpp.obj CMakeFiles/application.dir/Lab_11/subsequence.cpp.obj CMakeFiles/application.dir/Lab_11/chess.cpp.obj CMakeFiles/application.dir/Lab_11/nails.cpp.obj
+build application.exe: CXX_EXECUTABLE_LINKER__application_Debug CMakeFiles/application.dir/Lab_10/application.cpp.obj CMakeFiles/application.dir/Lab_11/subsequence.cpp.obj CMakeFiles/application.dir/Lab_11/chess.cpp.obj CMakeFiles/application.dir/Lab_11/nails.cpp.obj CMakeFiles/application.dir/Lab_11/game.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\application.dir

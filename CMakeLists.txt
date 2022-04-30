@@ -8,7 +8,7 @@ add_executable(infa_2022_kozyrev Lab_1/N1.cpp Lab_1/N3.cpp Lab_1/N4.cpp Lab_1/N5
 add_executable(N_1 Lab_10/knapsack.cpp)
 add_executable(knapsack Lab_10/knapsack.cpp)
 add_executable(money Lab_10/money.cpp)
-add_executable(application Lab_10/application.cpp Lab_11/subsequence.cpp Lab_11/chess.cpp Lab_11/nails.cpp)
+add_executable(application Lab_10/application.cpp Lab_11/subsequence.cpp Lab_11/chess.cpp Lab_11/nails.cpp Lab_11/game.cpp)
 add_executable(subsequence Lab_11/subsequence.cpp)
 add_executable(chess Lab_11/chess.cpp)
 add_executable(nails Lab_11/nails.cpp)
