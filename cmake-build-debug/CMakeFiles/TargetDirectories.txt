@@ -1,10 +1,8 @@
-C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/infa_2022_kozyrev.dir
-C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/application.dir
-C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N_1.dir
-C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/chess.dir
-C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/money.dir
-C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/knapsack.dir
-C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/subsequence.dir
-C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/nails.dir
-C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N_5.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/infa_2022_kozyrev.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N_1.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N_2.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N_3.dir
+C:/Studying/Programming/infa_2022_kozyrev/cmake-build-debug/CMakeFiles/N_4.dir
